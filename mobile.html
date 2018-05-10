@@ -5,22 +5,38 @@
     <title>Mathew Jennings</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Raleway" rel="stylesheet">
     <link href="css/mobile.css" rel="stylesheet">
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body >
 
     <div id="menu">
-        <table id="menutable">
-            <tr>
-                <td><a href="#1" class="menulink">Home</a></td>
-                <td><a href="#2" class="menulink">Work History</a></td>
-                <td><a href="#3" class="menulink">Certifications</a></td>
-                <td><a href="#4" class="menulink">Athletics</a></td>
-                <td><a href="#5" class="menulink">Connect</a></td>
-            </tr>
+    	
+    		
+       <div class="container" onclick="myFunction(this)">
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>
+
+		<div class="panel">
+		  <table id="menutable">
+            <tr><td><a href="#1" class="menulink">Home</a></td></tr>
+            <tr><td><a href="#2" class="menulink">Work History</a></td></tr>
+	        <tr><td><a href="#3" class="menulink">Certifications</a></td></tr>
+            <tr><td><a href="#4" class="menulink">Athletics</a></td></tr>
+            <tr><td><a href="#5" class="menulink">Connect</a></td></tr>
 
         </table>
+		</div>
+
+		<script>
+		function myFunction(x) {
+		    x.classList.toggle("change");
+		}
+		</script>
+		        	
+				
 
     </div>
 
@@ -46,6 +62,22 @@
                 
         
     </div>
+    <script>
+			var acc = document.getElementsByClassName("container");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+			    acc[i].addEventListener("click", function() {
+			        this.classList.toggle("active");
+			        var panel = this.nextElementSibling;
+			        if (panel.style.display === "block") {
+			            panel.style.display = "none";
+			        } else {
+			            panel.style.display = "block";
+			        }
+			    });
+			}
+		</script>
 </body>
 
 </html>1
