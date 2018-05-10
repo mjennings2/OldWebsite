@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Raleway" rel="stylesheet">
     <link href="css/mobile.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body >
@@ -13,7 +14,7 @@
     <div id="menu">
     	
     		
-       <div class="container" onclick="myFunction(this)">
+       <div class="container" onclick="expand(this)">
 		  <div class="bar1"></div>
 		  <div class="bar2"></div>
 		  <div class="bar3"></div>
@@ -29,14 +30,7 @@
 
         </table>
 		</div>
-
-		<script>
-		function myFunction(x) {
-		    x.classList.toggle("change");
-		}
-		</script>
-		        	
-				
+      				
 
     </div>
 
@@ -57,27 +51,30 @@
             
         <div id = "toolbox">
             <h2 class = "centered">Tool Box</h2>
-            <b class = "body">Skills:</b><p class = "body">Leading, Motivating, Problem solving, Communication.</p>
+            <p><b>Skills: </b>Leading, Motivating, Problem solving, Communication.</p>
+            <p><b>Languages and Libraries: </b>C, CSS, HTML, Java, Javascript (JQuery), MATLAB.</p>
+            <p><b>Hardware and Operating Systems: </b>Arduino, Macintosh, Ubuntu, Windows.</p>
+            <p><b>Other Program Proficiency: </b>Adobe Suite (Acrobat, After Effects, Photoshop, Priemier), Microsoft Suite (Excel, OneNote, Powerpoint, Publisher, Word) .</p>
         </div>
                 
         
     </div>
     <script>
-			var acc = document.getElementsByClassName("container");
-			var i;
+		var acc = document.getElementsByClassName("container");
+		var i;
 
-			for (i = 0; i < acc.length; i++) {
-			    acc[i].addEventListener("click", function() {
-			        this.classList.toggle("active");
-			        var panel = this.nextElementSibling;
-			        if (panel.style.display === "block") {
-			            panel.style.display = "none";
-			        } else {
-			            panel.style.display = "block";
-			        }
-			    });
-			}
-		</script>
+		for (i = 0; i < acc.length; i++) {
+		    acc[i].addEventListener("click", function() {
+		        this.classList.toggle("active");
+		        var panel = this.nextElementSibling;
+		        if (panel.style.display === "block") {
+		            panel.style.display = "none";
+		        } else {
+		            panel.style.display = "block";
+		        }
+		    });
+		}
+	</script>
 </body>
 
-</html>1
+</html>
