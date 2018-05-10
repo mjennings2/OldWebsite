@@ -1,80 +1,84 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Mathew Jennings</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Raleway" rel="stylesheet">
     <link href="css/mobile.css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="js/index.js"></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="js/index.js" type="text/javascript">
+    </script>
 </head>
-
-<body >
-
+<body>
     <div id="menu">
-    	
-    		
-       <div class="container" onclick="expand(this)">
-		  <div class="bar1"></div>
-		  <div class="bar2"></div>
-		  <div class="bar3"></div>
-		</div>
-
-		<div class="panel">
-		  <table id="menutable">
-            <tr><td><a href="#1" class="menulink">Home</a></td></tr>
-            <tr><td><a href="#2" class="menulink">Work History</a></td></tr>
-	        <tr><td><a href="#3" class="menulink">Certifications</a></td></tr>
-            <tr><td><a href="#4" class="menulink">Athletics</a></td></tr>
-            <tr><td><a href="#5" class="menulink">Connect</a></td></tr>
-
-        </table>
-		</div>
-      				
-
+        <div class="container" onclick="expand(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="panel">
+            <table id="menutable">
+                <tr>
+                    <td>
+                        <a class="menulink" href="mobile.html">Home</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="menulink" href="workhistory.html">Work History</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="menulink" href="#3">Certifications</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="menulink" href="#4">Athletics</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="menulink" href="#5">Connect</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
-
-    <div id = "body">
+    <div id="body">
         <div id="about">
-            <h1 class="title">About Me</h1>
-			<img src="images/Me.png" id="picture-of-me" height="400px" align="center">
+            <h1 class="title">About Me</h1><img align="center" height="400px" id="picture-of-me" src="images/Me.png">
             <p class="body">Skilled Ski Coach and Sailing Instructor with in-depth knowledge of how to teach kids to give them the best start in sailing or skiing. Consistently motivates and inspires players to work on improving their skills every day. Looking to use what I've learned at school to gain practical expirience in the software engineering field.</p>
             <p class="body">Since first taking AP Computer Science In grade 11 and becoming the head of my school's programming club, I have gained a love for programming both in school and as a hobby. My goal is to become a Software Engineer.</p>
             <h3 class="body">Education</h3>
-            
-            <center class = "image"><img src="images/queens.png" width="200px" height="200px"></center>
-     
+            <center class="image">
+                <img height="200px" src="images/queens.png" width="200px">
+            </center>
             <p class="body">Attending Queens University completeing a bachlors degree in <a href="https://engineering.queensu.ca/explore-programs/undergraduate-programs/mathematics-and-engineering/">Matamatics and Engineering</a>, Computing and Communications Option.</p>
-               
         </div>
-        
-            
-        <div id = "toolbox">
-            <h2 class = "centered">Tool Box</h2>
-            <p><b>Skills: </b>Leading, Motivating, Problem solving, Communication.</p>
-            <p><b>Languages and Libraries: </b>C, CSS, HTML, Java, Javascript (JQuery), MATLAB.</p>
-            <p><b>Hardware and Operating Systems: </b>Arduino, Macintosh, Ubuntu, Windows.</p>
-            <p><b>Other Program Proficiency: </b>Adobe Suite (Acrobat, After Effects, Photoshop, Priemier), Microsoft Suite (Excel, OneNote, Powerpoint, Publisher, Word) .</p>
+        <div id="toolbox">
+            <h2 class="centered">Tool Box</h2>
+            <p><b>Skills:</b> Leading, Motivating, Problem solving, Communication.</p>
+            <p><b>Languages and Libraries:</b> C, CSS, HTML, Java, Javascript (JQuery), MATLAB.</p>
+            <p><b>Hardware and Operating Systems:</b> Arduino, Macintosh, Ubuntu, Windows.</p>
+            <p><b>Other Program Proficiency:</b> Adobe Suite (Acrobat, After Effects, Photoshop, Priemier), Microsoft Suite (Excel, OneNote, Powerpoint, Publisher, Word) .</p>
         </div>
-                
-        
     </div>
     <script>
-		var acc = document.getElementsByClassName("container");
-		var i;
+           var acc = document.getElementsByClassName("container");
+           var i;
 
-		for (i = 0; i < acc.length; i++) {
-		    acc[i].addEventListener("click", function() {
-		        this.classList.toggle("active");
-		        var panel = this.nextElementSibling;
-		        if (panel.style.display === "block") {
-		            panel.style.display = "none";
-		        } else {
-		            panel.style.display = "block";
-		        }
-		    });
-		}
-	</script>
+           for (i = 0; i < acc.length; i++) {
+               acc[i].addEventListener("click", function() {
+                   this.classList.toggle("active");
+                   var panel = this.nextElementSibling;
+                   if (panel.style.display === "block") {
+                       panel.style.display = "none";
+                   } else {
+                       panel.style.display = "block";
+                   }
+               });
+           }
+    </script>
 </body>
-
 </html>

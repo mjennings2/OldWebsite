@@ -1,74 +1,70 @@
-#menu{
-     position: fixed;
-     padding-top: 20px;
-     padding-bottom: 20px;
-     padding-left: 10px;
-     top: 0px;
-     height: 30px;
-     width: 100%;
-     background-color: #006026;
-     float: left;
-
+#menu {
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    top: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: #006026;
+    float: left;
 }
- #menutable{
-     width: 100%;
-     text-align: center;
-     border: 0px;
+#menutable {
+    width: 100%;
+    text-align: center;
+    border: 0px;
 }
-
- #body{
-     font-family: 'Raleway', serif;
+#body {
+    font-family: 'Raleway', serif;
 }
- .menulink{
-     margin-left:10px;
-     margin-right:10px;
-     color:white;
-     text-decoration:none;
-     font-family: 'Raleway', serif;
-     font-size:22px;
-     text-align:center;
+.menulink {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', serif;
+    font-size: 22px;
+    text-align: center;
 }
- .menulink:hover{
-     text-decoration:underline;
+.menulink:hover {
+    text-decoration: underline;
 }
- .title{
-     text-align: center;
-     font-family: 'Raleway', serif;
+.title {
+    text-align: center;
+    font-family: 'Raleway', serif;
 }
- #about{
-     width:100%;
-     float:left;
-     padding-top: 50px;
-     
+#about {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
 }
- .tool{
-     position: absolute;
-     float:right;
+.tool {
+    position: absolute;
+    float: right;
 }
- #toolbox{
-     width: 100%;
-     float:left;
-     padding-top: 50px;
-     padding-left: 10px;
-     font-family: 'Raleway', serif;
+#toolbox {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+    padding-left: 10px;
+    font-family: 'Raleway', serif;
 }
- #picture-of-me{
-     margin-left: 5%;
+#picture-of-me {
+    margin-left: 5%;
 }
- #right{
-     margin-top: 100px;
+#right {
+    margin-top: 100px;
 }
-.image{
-     height:;
+.image {
+    height: ;
 }
 .centered {
-     text-align: center;
+    text-align: center;
 }
 .container {
-         display: inline-block;
-         cursor: pointer;
+    display: inline-block;
+    cursor: pointer;
 }
-
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
@@ -76,14 +72,13 @@
     margin: 6px 0;
     transition: 0.4s;
 }
-
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
 }
-
-.change .bar2 {opacity: 0;}
-
+.change .bar2 {
+    opacity: 0;
+}
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
@@ -100,13 +95,9 @@
     font-size: 15px;
     transition: 0.4s;
 }
-
-
-
 .panel {
     padding: 0 18px;
     display: none;
     background-color: #006026;
     overflow: hidden;
-
 }

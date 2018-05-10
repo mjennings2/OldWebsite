@@ -1,4 +1,4 @@
-#menu{
+#menu {
      position: fixed;
      padding-top: 20px;
      padding-bottom: 20px;
@@ -7,64 +7,63 @@
      width: 100%;
      background-color: #006026;
 }
- #menutable{
+#menutable {
      width: 100%;
      text-align: center;
      border: 0px;
 }
-
- #body{
+#body {
      font-family: 'Raleway', serif;
      max-width: 1500px;
-    margin: auto;
-    background: white;
-    padding: 10px;
+     margin: auto;
+     background: white;
+     padding: 10px;
+     margin-top: 20px;
 }
- .menulink{
-     margin-left:10px;
-     margin-right:10px;
-     color:white;
-     text-decoration:none;
+.menulink {
+     margin-left: 10px;
+     margin-right: 10px;
+     color: white;
+     text-decoration: none;
      font-family: 'Raleway', serif;
-     font-size:22px;
-     text-align:center;
+     font-size: 22px;
+     text-align: center;
 }
- .menulink:hover{
-     text-decoration:underline;
+.menulink:hover {
+     text-decoration: underline;
 }
- .title{
+.title {
      text-align: center;
      font-family: 'Raleway', serif;
 }
- #about{
-     width:50%;
-     float:left;
+#about {
+     width: 50%;
+     float: left;
      padding-top: 50px;
-     margin: 20px;
 }
- .tool{
+.tool {
      position: absolute;
-     float:right;
+     float: right;
 }
- #toolbox{
-     width:100%;
-     float:right;
-     
-     
+#toolbox {
+     width: 100%;
+     float: right;
      border-style: solid;
      border-width: 5px;
      text-align: center;
      font-family: 'Raleway', serif;
 }
- #picture-of-me{
+#picture-of-me {
      margin-left: 25%;
 }
- #right{
-     margin-top: 40px;
+#right {
+     margin-top: 20px;
 }
-.image{
-     height:;
-}
-#rright{
+#rright {
      width: 45%;
+}
+#craigleith{
+     height: 214;
+     width: 176;
+     padding-top: 40px;
 }
