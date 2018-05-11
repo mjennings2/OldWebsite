@@ -71,6 +71,7 @@
      margin-top: 40px;
      font-family: 'Raleway', serif;
      max-width: 1500px;
+     margin: auto;
      background: white;
      padding: 10px;
      padding-top: 20px;
@@ -79,6 +80,7 @@
      margin-top: 40px;
      font-family: 'Raleway', serif;
      max-width: 1500px;
+     margin: auto;
      background: white;
      padding: 10px;
      padding-top: 20px;
@@ -89,4 +91,5 @@
 }
 .pic{
      width: 50%;
+     margin-left: 35%
 }
