@@ -68,22 +68,24 @@
      padding-top: 40px;
 }
 #cbody{
-     margin-top: 40px;
+     
      font-family: 'Raleway', serif;
      max-width: 1500px;
      margin: auto;
      background: white;
      padding: 10px;
      padding-top: 20px;
+     margin-top: 40px;
 }
 #abody{
-     margin-top: 40px;
+     
      font-family: 'Raleway', serif;
      max-width: 1500px;
      margin: auto;
      background: white;
      padding: 10px;
      padding-top: 20px;
+     margin-top: 40px;
 }
 #aright{
      width: 49%;
