@@ -67,3 +67,11 @@
      width: 176;
      padding-top: 40px;
 }
+#cbody{
+     margin-top: 40px;
+     font-family: 'Raleway', serif;
+     max-width: 1500px;
+     background: white;
+     padding: 10px;
+     padding-top: 20px;
+}

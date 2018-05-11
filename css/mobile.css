@@ -106,6 +106,14 @@
 }
 #logo{
      height: 214;
-     width: 100%;
+     width: 96%;
      padding-top: 60px;
+}
+#cbody{
+     margin-top: 40px;
+     font-family: 'Raleway', serif;
+     max-width: 1500px;
+     background: white;
+     padding: 10px;
+     padding-top: 20px;
 }
