@@ -17,6 +17,9 @@
 #body {
     font-family: 'Raleway', serif;
 }
+#whbody {
+    font-family: 'Raleway', serif;
+}
 .menulink {
     margin-left: 10px;
     margin-right: 10px;
@@ -100,4 +103,9 @@
     display: none;
     background-color: #006026;
     overflow: hidden;
+}
+#logo{
+     height: 214;
+     width: 176;
+     padding-top: 60px;
 }

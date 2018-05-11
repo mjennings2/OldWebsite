@@ -2,39 +2,56 @@
 <html>
 <head>
 	<title>Mathew Jennings</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Raleway" rel="stylesheet">
-	<link href="css/index.css" rel="stylesheet"><!-- Mobile redirect script by https://pagecrafter.com -->
-
-	<script src="js/redirection-mobile.js" type="text/javascript">
-	</script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Raleway" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="js/index.js" type="text/javascript">
+    </script>
 </head>
 <body>
 	<div id="menu">
-		<table id="menutable">
-			<tr>
-				<td>
-					<a class="menulink" href="index.html">Home</a>
-				</td>
-				<td>
-					<a class="menulink" href="workhistory.html">Work History</a>
-				</td>
-				<td>
-					<a class="menulink" href="#3">Certifications</a>
-				</td>
-				<td>
-					<a class="menulink" href="#4">Athletics</a>
-				</td>
-				<td>
-					<a class="menulink" href="#5">Connect</a>
-				</td>
-			</tr>
-		</table>
-	</div>
+        <div class="container" onclick="expand(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="panel">
+            <table id="menutable">
+                <tr>
+                    <td>
+                        <a class="menulink" href="mobile.html">Home</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="menulink" href="workhistorymobile.html">Work History</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="menulink" href="#3">Certifications</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="menulink" href="#4">Athletics</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="menulink" href="#5">Connect</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
 
-	<div id = "body">
+	<div id = "whbody">
 		<table>
 			<tr>
 				<td><a href = "http://www.craigleith.com/"><img src="images/craigleith.png" id = "logo" ></a></td>
+			</tr>
+			<tr>
 				<td><p><b>Under 10 Ski Coach<br>Craigleith Ski Club</b> - The Blue Mountains<br>
 					<ul>
 						<li>Experienced racer deploying my strong skills to coach entry level ski racing to a team of eight and nine-year olds, serving as a positive role model for team participants and community members.</li>
@@ -45,6 +62,8 @@
 			</tr>
 			<tr>
 				<td><a href = "https://www.qcyc.ca/"><img src="images/QCYC.png" id = "logo" ></a></td>
+			</tr>
+			<tr>
 				<td><p><b>Sailing Instructor<br>Queen City Yacht Club</b> - Algonquin Island, Toronto<br>
 					<ul>
 						<li>Taught CANSail 1 & 2 athletes sailing skills, ensured safety in boats, and motivated athletes to improve their skills. Skills taught ranged from points of sail to proper tacking techniques. Also gained experience teaching CANSail 3 & 4 athletes filling in for instructors as needed.</li>
@@ -56,6 +75,8 @@
 			</tr>
 			<tr>
 				<td><img src="images/shingling.png" id = "logo" ></td>
+			</tr>
+			<tr>
 				<td><p><b>Roof Shingler<br>Self Employed</b> - Toronto, Ontario<br>
 					<ul>
 						<li>Through my own initiative, developed skills to install, repair, and replace single-ply roofing systems on small roofs that big roofing companies refused to roof. Independently solicited work and completed a number of projects.</li>
@@ -63,5 +84,21 @@
 			</tr>
 		</table>
 	</div>
+	<script>
+           var acc = document.getElementsByClassName("container");
+           var i;
+
+           for (i = 0; i < acc.length; i++) {
+               acc[i].addEventListener("click", function() {
+                   this.classList.toggle("active");
+                   var panel = this.nextElementSibling;
+                   if (panel.style.display === "block") {
+                       panel.style.display = "none";
+                   } else {
+                       panel.style.display = "block";
+                   }
+               });
+           }
+    </script>
 </body>
 </html>
