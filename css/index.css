@@ -75,3 +75,18 @@
      padding: 10px;
      padding-top: 20px;
 }
+#abody{
+     margin-top: 40px;
+     font-family: 'Raleway', serif;
+     max-width: 1500px;
+     background: white;
+     padding: 10px;
+     padding-top: 20px;
+}
+#aright{
+     width: 49%;
+     float: right;
+}
+.pic{
+     width: 50%;
+}
