@@ -94,3 +94,13 @@
      width: 50%;
      margin-left: 35%
 }
+#connectbody{
+     font-family: 'Raleway', serif;
+     max-width: 1500px;
+     margin: auto;
+     background: white;
+     padding: 10px;
+     margin-top: 60px;
+     margin-left: 30%;
+     
+}
