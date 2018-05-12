@@ -16,7 +16,6 @@
 }
 #body {
     font-family: 'Raleway', serif;
-
 }
 #whbody {
     font-family: 'Raleway', serif;
@@ -106,17 +105,21 @@
     background-color: #006026;
     overflow: hidden;
 }
-.logo{
-     height: 214;
-     width: 96%;
-     padding-top: 20px;
+.logo {
+    height: 214;
+    width: 96%;
+    padding-top: 20px;
 }
-
-#cbody{
+#cbody {
     font-family: 'Raleway', serif;
     padding-top: 60px;
 }
-#abody{
+#abody {
     font-family: 'Raleway', serif;
     padding-top: 60px;
+}
+#connectbody {
+    font-family: 'Raleway', serif;
+    padding-top: 60px;
+    margin-left: 30%;
 }

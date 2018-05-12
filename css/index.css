@@ -62,13 +62,12 @@
 #rright {
      width: 45%;
 }
-#logo{
+#logo {
      height: 214;
      width: 176;
      padding-top: 40px;
 }
-#cbody{
-     
+#cbody {
      font-family: 'Raleway', serif;
      max-width: 1500px;
      margin: auto;
@@ -77,30 +76,28 @@
      padding-top: 20px;
      margin-top: 40px;
 }
-#abody{
+#abody {
      font-family: 'Raleway', serif;
      max-width: 1500px;
      margin: auto;
      background: white;
      padding: 10px;
      margin-top: 60px;
-     
 }
-#aright{
+#aright {
      width: 49%;
      float: right;
 }
-.pic{
+.pic {
      width: 50%;
      margin-left: 35%
 }
-#connectbody{
+#connectbody {
      font-family: 'Raleway', serif;
      max-width: 1500px;
      margin: auto;
      background: white;
      padding: 10px;
-     margin-top: 60px;
+     margin-top: 200px;
      margin-left: 30%;
-     
 }
