@@ -5,7 +5,7 @@
     padding-left: 10px;
     top: 0px;
     height: 30px;
-    width: 100%;
+    width: 93%;
     background-color: #006026;
     float: left;
 }
@@ -32,6 +32,9 @@
 }
 .left{
      text-align: left;
+}
+.center{
+    text-align: center;
 }
 .menulink:hover {
     text-decoration: underline;
@@ -125,4 +128,35 @@
     font-family: 'Raleway', serif;
     padding-top: 60px;
     margin-left: 30%;
+}
+/*.button {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.button:hover {
+  background-color: #ddd;
+  color: black;
+}  
+.button{
+     color: #000000;
+}*/
+a.button:link, a.button:visited {
+  width: 100%;
+  margin-top: 2px;
+  background-color: #006026;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button:hover, a.button:active {
+  background-color: gray;
 }
