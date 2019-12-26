@@ -1,32 +1,52 @@
 #menu {
      position: fixed;
-     padding-top: 20px;
-     padding-bottom: 20px;
      top: 0px;
-     height: 30px;
-     width: 100%;
-     background-color: #006026;
+     height: 100%;
+     width: 15%;
+    background-color: #615b5a;
+    opacity: .7;
+     
+}
+body{
+     text-align: center;
+     background-attachment: fixed;
+     background-image: url('../images/whistler.jpg');
+}
+a{
+     color: #3333ff;
 }
 #menutable {
+     position: absolute;
+     top: 50%;
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
      width: 100%;
      text-align: center;
-     border: 0px;
+     border: 30px;
+
 }
-#body {
-     font-family: 'Raleway', serif;
-     max-width: 1500px;
-     margin: auto;
-     background: white;
-     padding: 10px;
+.menurow{
      margin-top: 20px;
+}
+
+#body {
+     position: center;
+     font-family: "Calibri", sans-serif;
+     font-weight: lighter;
+     margin-left: 20%;
+     padding: 20px;
+     margin-top: 20px;
+     background-color: rgba(130, 130, 126, 0.9);
+     border-radius: 25px;
 }
 .menulink {
      margin-left: 10px;
      margin-right: 10px;
      color: white;
      text-decoration: none;
-     font-family: 'Raleway', serif;
-     font-size: 22px;
+     font-family: "Calibri", sans-serif;
+  font-weight: lighter;
+     font-size: 85%;
      text-align: center;
 }
 .menulink:hover {
@@ -37,24 +57,39 @@
      font-family: 'Raleway', serif;
 }
 #about {
-     width: 50%;
-     float: left;
+     width: 100%;
+     float: center;
      padding-top: 50px;
+
 }
 .tool {
      position: absolute;
-     float: right;
+     float: center;
 }
 #toolbox {
-     width: 100%;
-     float: right;
+     border-radius: 25px;
+     padding-bottom: 3%;
+     text-align: center;
+     font-family: "Calibri", sans-serif;
+     font-weight: lighter;
+     padding: 10px;
+     background-color: rgba(130, 130, 126, 0.9);
+     border-radius: 25px;
+     margin-left: 20%;
+     margin-top: 20px;
+}
+#innertoolbox{
+     border-radius: 25px;
      border-style: solid;
      border-width: 5px;
-     text-align: center;
-     font-family: 'Raleway', serif;
+     padding: 10px;
 }
 #picture-of-me {
-     margin-left: 25%;
+     position: center;
+     opacity: 1;
+}
+.left{
+     text-align: left;
 }
 #right {
      margin-top: 20px;
@@ -63,21 +98,28 @@
      width: 45%;
 }
 #logo {
-     height: 214;
-     width: 176;
+     height: 88px;
+     width: 117px;
      padding-top: 40px;
+     padding-right: 40px;
 }
 #cbody {
-     font-family: 'Raleway', serif;
-     max-width: 1500px;
-     margin: auto;
-     background: white;
-     padding: 10px;
-     padding-top: 20px;
-     margin-top: 40px;
+     width:78%;
+     position: absolute;
+     top: 50%;
+     -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+     font-family: "Calibri", sans-serif;
+     font-weight: lighter;
+     margin-left: 17%;
+     padding: 20px;
+     margin-top: 20px;
+     background-color: rgba(130, 130, 126, 0.9);
+     border-radius: 25px;
 }
 #abody {
-     font-family: 'Raleway', serif;
+     font-family: "Calibri", sans-serif;
+  font-weight: lighter;
      max-width: 1500px;
      margin: auto;
      background: white;
@@ -93,7 +135,8 @@
      margin-left: 35%
 }
 #connectbody {
-     font-family: 'Raleway', serif;
+     font-family: "Calibri", sans-serif;
+  font-weight: lighter;
      background: white;
      margin-top: 200px;
      padding-left: 35%;
