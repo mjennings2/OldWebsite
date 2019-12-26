@@ -147,7 +147,8 @@
      color: #000000;
 }*/
 a.button:link, a.button:visited {
-  width: 100%;
+  width: 95%;
+  position: center;
   margin-top: 2px;
   background-color: #006026;
   color: white;
