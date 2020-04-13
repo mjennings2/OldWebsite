@@ -50,8 +50,8 @@ a{
      padding: 10px;
 }
 #picture-of-me {
-     position: center;
-     opacity: 1;
+     width:100%;
+     z-index:0;
 }
 .left{
      text-align: left;
