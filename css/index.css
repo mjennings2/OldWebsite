@@ -103,6 +103,12 @@ a{
      padding-top: 40px;
      padding-right: 40px;
 }
+#meraki-logo {
+     height: 117px;
+     width: 117px;
+     padding-top: 40px;
+     padding-right: 40px;
+}
 #cbody {
      width:78%;
      position: absolute;
